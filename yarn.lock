@@ -59,10 +59,10 @@
   integrity sha512-m2OzlTDbhvzK4hgswH9Lx0cdpq1AntXu53Klz5RGkFfuoDvKsnlU7tmtVfNWtUiP0zZbGtrb/BZYH7aB6TRnMA==
 
 "@auto-it/bot-list@link:packages/bot-list":
-  version "9.54.2"
+  version "9.59.1"
 
 "@auto-it/core@link:packages/core":
-  version "9.54.2"
+  version "9.59.1"
   dependencies:
     "@auto-it/bot-list" "link:packages/bot-list"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
@@ -102,7 +102,7 @@
     url-join "^4.0.0"
 
 "@auto-it/npm@link:plugins/npm":
-  version "9.54.2"
+  version "9.59.1"
   dependencies:
     "@auto-it/core" "link:packages/core"
     await-to-js "^2.1.1"
@@ -120,7 +120,7 @@
     user-home "^2.0.0"
 
 "@auto-it/released@link:plugins/released":
-  version "9.54.2"
+  version "9.59.1"
   dependencies:
     "@auto-it/core" "link:packages/core"
     deepmerge "^4.0.0"
@@ -13061,10 +13061,10 @@ nested-error-stacks@^2.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-next-ignite@^0.6.7:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/next-ignite/-/next-ignite-0.6.7.tgz#424703b166bf5b7143be764b42a38ea7fc116d74"
-  integrity sha512-SSOkrCLmVK/1QlBoCyUKMBDGw6GwnwvUlf22elhxAOTfOY4d5wFjDMU5BXYZ/9ROSA0iRbO/cqVqkEAdZjUjbA==
+next-ignite@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/next-ignite/-/next-ignite-0.7.1.tgz#7cadeb97c48d478c9210d8a45bbf83c84083ab4b"
+  integrity sha512-mVUQ9ORqQd/h9K4suFtvMlB12PqLE3CaAmc7iyWvbNe6Q+bgChvI2dpGjOedHadhJ9u8JZCwJHOsaAlNw7ld5Q==
   dependencies:
     "@mapbox/rehype-prism" "^0.4.0"
     "@next/bundle-analyzer" "^9.4.0"
